@@ -1,0 +1,158 @@
++-----------------------------+----------------------+
+|Order category selection text|Only production orders|
+|Plant                        |272J                  |
+|System status 1              |TECO                  |
+|System status exclusive 1    |X                     |
+|System status 2              |CLSD                  |
+|System status exclusive 2    |X                     |
+|Basic start date             |  /  /                |
+|Basic finish date            |  /  /                |
+|Scheduled start date         |  /  /                |
+|Scheduled finish date        |  /  /                |
+|Scheduled release date       |  /  /                |
+|Actual start date            |  /  /                |
+|Actual finish date           |  /  /                |
+|Actual release date          |  /  /                |
+|Execute mass processing      |X                     |
+|Availability check           |X                     |
++-----------------------------+----------------------+
++-------------+-----+------+--------+
+|Sort criteria|Ascdg|Descnd|Subtotal|
++-------------+-----+------+--------+
+|Plant        |  X  |      |   X    |
++-------------+-----+------+--------+
++------------------------+---------+
+|Data statistics         |Number of|
++------------------------+---------+
+|Records passed          |      121|
+|Calculated total records|        2|
++------------------------+---------+
++------+--------+--------+----+------------------+----------------------------------------+----+---+----------+-------+--------+---------+----------+----------+---------+----------------------------------------+
+|  Plnt|Order   |Seq. no.|Prio|Material          |Material description                    |Type|MRP|Target qty|Ord.qty|Del. qty|Conf. qty|Bas. start|Basic fin.|Del. flag|System status                           |
++------+--------+--------+----+------------------+----------------------------------------+----+---+----------+-------+--------+---------+----------+----------+---------+----------------------------------------+
+|  272J|80238055|        |    |03057252          |Finished Board Unit,HERT BBU,WD22UMPTe2,|ZBHR|B05|       26 |     0 |     25 |      25 |11/18/2022|11/18/2022|         |REL  PCNF PRC  GMPS MACM PDLV RESA SETC |
+|  272J|80238082|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|        2 |     2 |      2 |       2 |12/22/2022|12/22/2022|         |REL  PCNF DLV  PRC  GMPS MANC RESA SETC |
+|  272J|80238318|        |    |03028BLH          |UBBPg2a,WD2BUBBPg2a,UniversalBaseband   |ZH6B|B05|      202 |   202 |    202 |     202 |12/13/2022|12/13/2022|         |REL  PCNF DLV  PRC  GMPS MANC RESA SETC |
+|  272J|80238471|        |    |0302012165        |Manufactured Board,MARP RRU,WD5DQRXH10A,|ZH6R|B05|      329 |   165 |    329 |     329 |12/21/2022|12/30/2022|         |REL  PCNF DLV  PRC  CSER GMPS MANC RESA*|
+|  272J|80238555|        |    |03058737-1        |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B01|      100 |     0 |    100 |     100 |12/19/2022|12/19/2022|         |REL  CNF  DLV  PRC  GMPS MACM RESA SETC |
+|  272J|80238746|        |    |03058542          |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B05|      100 |   100 |     98 |      98 |12/19/2022|12/19/2022|         |REL  PCNF PRC  GMPS MACM PDLV RESA SETC |
+|  272J|80238840|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      103 |   103 |      0 |       0 |01/02/2023|01/02/2023|         |CRTD PRC  MACM SETC                     |
+|  272J|80238916|        |    |0302018278        |Manufactured Board,WD5LLRXCT0E,Transceiv|ZH6R|B05|      121 |   121 |    121 |     121 |12/16/2022|12/16/2022|         |REL  PCNF DLV  PRC  CSER GMPS MANC RESA*|
+|  272J|80238962|        |    |03057306-1        |Finished Board Unit,HERT BBU,WD22UMPTe2,|ZBHR|B01|       99 |    99 |     97 |      97 |12/20/2022|12/20/2022|         |REL  PCNF PRC  GMPS MACM PDLV RESA SETC |
+|  272J|80238963|        |    |03057252          |Finished Board Unit,HERT BBU,WD22UMPTe2,|ZBHR|B05|       99 |     0 |     98 |      98 |12/20/2022|12/20/2022|         |REL  PCNF PRC  GMPS MACM PDLV RESA SETC |
+|  272J|80239110|        |    |02311UWT-4        |Unidade Remota outdoor (RRU)            |ZBH1|B01|      100 |   100 |    100 |     100 |12/20/2022|12/20/2022|         |REL  CNF  DLV  PRC  CSER GMPS MACM RESA*|
+|  272J|80239111|        |    |02311UWT-4        |Unidade Remota outdoor (RRU)            |ZBH1|B01|      100 |   100 |    100 |     100 |12/20/2022|12/20/2022|         |REL  CNF  DLV  PRC  CSER GMPS MACM RESA*|
+|  272J|80239112|        |    |02311UWT-4        |Unidade Remota outdoor (RRU)            |ZBH1|B01|      100 |   100 |    100 |     100 |12/20/2022|12/20/2022|         |REL  CNF  DLV  PRC  CSER GMPS MACM RESA*|
+|  272J|80239113|        |    |02311UWT-4        |Unidade Remota outdoor (RRU)            |ZBH1|B01|       30 |    15 |     28 |      28 |12/20/2022|12/20/2022|         |REL  PCNF PRC  CSER GMPS MACM PDLV RESA*|
+|  272J|80239124|        |    |03025TRM          |Manufactured Board,MA5800,H903GPHF,16-po|ZH6G|B05|      163 |   163 |    163 |     163 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239125|        |    |03025TRM-1        |Manufactured Board,MA5800,H903GPHF,16-po|ZBHG|B01|      163 |   163 |    163 |     163 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239126|        |    |0302028369        |UMPTg2,WD2KUMPTg2,Universal Main Process|ZH6R|B05|      199 |   199 |    199 |     199 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  CSER GMPS MACM SETC |
+|  272J|80239127|        |    |03034QPL          |UMPTg2,WD2PUMPTg2,Universal Main Process|ZH6R|B05|      199 |   199 |    199 |     199 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239129|        |    |CTL1-369-204-A-GR |High Current Switching Regulators,VR13.H|ZB10|B06|      199 |   199 |    199 |     199 |12/23/2022|12/23/2022|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239131|        |    |369-220-A-VMO-GR  |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      199 |   199 |    199 |     199 |12/23/2022|12/23/2022|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239132|        |    |369-220-A-BRC-GR  |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      199 |   199 |    199 |     199 |12/23/2022|12/23/2022|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239138|        |    |LBLSERIALMB08-GR  |M00276378,BlankBarcodeLabel,Label,PET   |ZB10|B06|      163 |   163 |    163 |     163 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239139|        |    |0302028369        |UMPTg2,WD2KUMPTg2,Universal Main Process|ZH6B|B05|      101 |   101 |    101 |     101 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  CSER GMPS MACM SETC |
+|  272J|80239140|        |    |03034QPL          |UMPTg2,WD2PUMPTg2,Universal Main Process|ZH6B|B05|      101 |   101 |    101 |     101 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239141|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      101 |   101 |    101 |     101 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239142|        |    |CTL1-369-204-A-GR |High Current Switching Regulators,VR13.H|ZB10|B06|      101 |   101 |    101 |     101 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239143|        |    |F1-369-220-A-GR   |NOR FLASH,512Mbit,50MHz,64KB,1.8V,SOIC16|ZB10|B06|      101 |   101 |    101 |     101 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239144|        |    |369-220-A-VMO-GR  |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      101 |   101 |    101 |     101 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239145|        |    |369-220-A-BRC-GR  |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      101 |   101 |    101 |     101 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239146|        |    |369-220-A-VDE-GR  |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      101 |   101 |    101 |     101 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239147|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      101 |   101 |    101 |     101 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239148|        |    |03058542          |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B05|      100 |   100 |    100 |     100 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239149|        |    |03058542          |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B05|      100 |   100 |    100 |     100 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239150|        |    |03058542          |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B05|      100 |   100 |    100 |     100 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239151|        |    |03058737-1        |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B01|      100 |     0 |    100 |     100 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239152|        |    |03058737-1        |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B01|      100 |     0 |    100 |     100 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239153|        |    |03058737-1        |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B01|      100 |     0 |    100 |     100 |01/02/2023|01/02/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239269|        |    |02311PFF-4        |Unidade Remota outdoor (RRU)            |ZBH1|B01|      100 |     0 |    100 |     100 |01/23/2023|01/23/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239379|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      496 |   496 |    496 |     496 |01/16/2023|01/16/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239380|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      496 |   496 |    496 |     496 |01/16/2023|01/16/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239381|        |    |369-220-A-BRC-GR  |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      292 |   292 |    292 |     292 |01/10/2023|01/16/2023|         |REL  PCNF DLV  PRC  GMPS MANC SETC      |
+|  272J|80239382|        |    |369-220-A-VMO-GR  |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      292 |   292 |    292 |     292 |01/11/2023|01/16/2023|         |REL  PCNF DLV  PRC  GMPS MANC SETC      |
+|  272J|80239383|        |    |F1-369-220-A-GR   |NOR FLASH,512Mbit,50MHz,64KB,1.8V,SOIC16|ZB10|B06|      292 |   292 |    292 |     292 |01/10/2023|01/16/2023|         |REL  PCNF DLV  PRC  GMPS MANC SETC      |
+|  272J|80239385|        |    |CTL1-369-204-A-GR |High Current Switching Regulators,VR13.H|ZB10|B06|      292 |   292 |    292 |     292 |01/10/2023|01/16/2023|         |REL  PCNF DLV  PRC  GMPS MANC SETC      |
+|  272J|80239386|        |    |369-220-A-VDE-GR  |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      496 |   496 |    292 |     292 |01/16/2023|01/16/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239388|        |    |0302026214        |Manufactured Board,MARP RRU,WD5DQRXG7ZA,|ZH6R|B05|      104 |   104 |    104 |     104 |01/23/2023|01/23/2023|         |REL  CNF  DLV  PRC  CSER GMPS MACM SETC |
+|  272J|80239389|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      104 |     0 |    104 |     104 |01/23/2023|01/23/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239410|        |    |FLASH-214-111-C-GR|NOR FLASH-1Gbit-50MHz-256KB-1.8V-SOIC16-|ZB10|B06|      104 |     0 |    104 |     104 |01/23/2023|01/23/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239411|        |    |MB-214-102-A-GR   |Manufactured Board,MP2975IC-board,EN42CT|ZB10|B06|      104 |     0 |    104 |     104 |01/23/2023|01/23/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239486|        |    |0302018278        |Manufactured Board,WD5LLRXCT0E,Transceiv|ZH6R|B05|      749 |   749 |    749 |     749 |01/13/2023|01/13/2023|         |REL  CNF  DLV  PRC  CSER GMPS MACM SETC |
+|  272J|80239490|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      749 |   749 |    749 |     749 |01/13/2023|01/13/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239491|        |    |FLASH-278-102-C-GR|NOR FLASH-1Gbit-50MHz-256KB-1.8V-SOIC16-|ZB10|B06|      498 |   498 |    498 |     498 |01/13/2023|01/13/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239492|        |    |03058737-1        |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B01|      100 |   100 |    100 |     100 |01/16/2023|01/16/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239493|        |    |03058737-1        |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B01|       30 |    30 |     30 |      30 |01/16/2023|01/16/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239494|        |    |03058542          |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B05|      100 |   100 |    100 |     100 |01/16/2023|01/16/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239495|        |    |03058542          |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B05|       30 |    30 |     30 |      30 |01/16/2023|01/16/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239502|        |    |FLASH-278-102-B-GR|NOR FLASH-1Gbit-50MHz-256KB-1.8V-SOIC16-|ZB10|B06|      251 |   251 |    251 |     251 |01/13/2023|01/13/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239535|        |    |02312FYQ-3        |Unidade Remota outdoor (RRU)            |ZBH1|B01|      100 |     0 |    100 |     100 |01/13/2023|01/13/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239536|        |    |02312FYQ-3        |Unidade Remota outdoor (RRU)            |ZBH1|B01|       82 |     0 |     82 |      82 |01/13/2023|01/13/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239599|        |    |0302028369        |UMPTg2,WD2KUMPTg2,Universal Main Process|ZH6B|B05|      292 |     0 |    286 |     286 |01/31/2023|01/31/2023|         |REL  PCNF PRC  CSER GMPS MACM PDLV SETC |
+|  272J|80239600|        |    |03034QPL          |UMPTg2,WD2PUMPTg2,Universal Main Process|ZH6B|B05|      292 |   292 |    286 |     286 |01/31/2023|01/31/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239604|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      292 |     0 |    292 |     292 |01/24/2023|01/24/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239610|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      292 |     0 |    292 |     292 |01/24/2023|01/24/2023|         |REL  CNF  DLV  PRC  GMPS MANC SETC      |
+|  272J|80239627|        |    |03028BLH          |UBBPg2a,WD2BUBBPg2a,UniversalBaseband   |ZH6B|B05|      686 |   686 |    686 |     686 |01/23/2023|01/23/2023|         |REL  PCNF DLV  PRC  GMPS MANC SETC      |
+|  272J|80239628|        |    |03058707-1        |Finished Board Unit,HERT BBU,WD22UBBPe2,|ZBHR|B01|      100 |     0 |     96 |      96 |01/17/2023|01/17/2023|         |REL  PCNF PRC  CSER GMPS MACM PDLV SETC |
+|  272J|80239629|        |    |03058707-1        |Finished Board Unit,HERT BBU,WD22UBBPe2,|ZBHR|B01|      100 |     0 |     93 |      93 |01/17/2023|01/17/2023|         |REL  PCNF PRC  CSER GMPS MACM PDLV SETC |
+|  272J|80239630|        |    |03058707-1        |Finished Board Unit,HERT BBU,WD22UBBPe2,|ZBHR|B01|      100 |   100 |      0 |       0 |01/17/2023|01/17/2023|         |REL  PRC  CSER GMPS MACM SETC           |
+|  272J|80239631|        |    |03058707-1        |Finished Board Unit,HERT BBU,WD22UBBPe2,|ZBHR|B01|       60 |    60 |      0 |       0 |01/17/2023|01/17/2023|         |REL  PRC  CSER GMPS MACM SETC           |
+|  272J|80239632|        |    |F1-BLH-220-C-GR   |NOR FLASH-512Mbit-50MHz-64KB-1.8V-SOIC16|ZB10|B06|      694 |   694 |    597 |     597 |01/17/2023|01/17/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239633|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      694 |   694 |    694 |     694 |01/17/2023|01/17/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239634|        |    |F2-BLH-220-B-GR   |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      694 |   694 |    596 |     596 |01/17/2023|01/17/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239635|        |    |BLH-140-B-VDE-GR  |MP2975IC-2RailBoard,RFKTWD2B2975,MP2975I|ZB10|B06|      694 |   694 |    596 |     596 |01/17/2023|01/17/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239636|        |    |BLH-140-B-BRC-GR2 |MP2975IC-2RailBoard,RFKTWD2B2975,MP2975I|ZB10|B06|      694 |   694 |    596 |     596 |01/17/2023|01/17/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239637|        |    |BLH-140-B-VMO-GR3 |MP2975IC-2RailBoard,RFKTWD2B2975,MP2975I|ZB10|B06|      694 |   694 |    596 |     596 |01/17/2023|01/17/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239715|        |    |03058737-1        |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B01|      100 |   100 |     49 |      49 |01/20/2023|01/20/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239716|        |    |03058737-1        |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B01|       69 |    69 |      0 |       0 |01/20/2023|01/20/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239717|        |    |03058542          |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B05|      100 |   100 |     56 |      56 |01/20/2023|01/20/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239718|        |    |03058542          |Finished Board Unit,HERT BBU,WD22UMPTg2,|ZBHR|B05|       56 |     0 |      5 |       5 |01/20/2023|01/20/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239738|        |    |02312FYQ-3        |Unidade Remota outdoor (RRU)            |ZBH1|B01|      100 |     0 |     97 |      97 |01/20/2023|01/20/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239739|        |    |02312FYQ-3        |Unidade Remota outdoor (RRU)            |ZBH1|B01|      100 |     0 |     98 |      98 |01/20/2023|01/20/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239740|        |    |02312FYQ-3        |Unidade Remota outdoor (RRU)            |ZBH1|B01|      100 |     0 |     99 |      99 |01/20/2023|01/20/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239741|        |    |02312FYQ-3        |Unidade Remota outdoor (RRU)            |ZBH1|B01|       80 |     0 |     75 |      75 |01/20/2023|01/20/2023|         |REL  PCNF PRC  GMPS MACM PDLV SETC      |
+|  272J|80239747|        |    |03058707-1        |Finished Board Unit,HERT BBU,WD22UBBPe2,|ZBHR|B01|      100 |   100 |      0 |       0 |01/19/2023|01/19/2023|         |REL  PRC  CSER GMPS MACM SETC           |
+|  272J|80239748|        |    |03058707-1        |Finished Board Unit,HERT BBU,WD22UBBPe2,|ZBHR|B01|      100 |     0 |     51 |      51 |01/19/2023|01/19/2023|         |REL  PCNF PRC  CSER GMPS MACM PDLV SETC |
+|  272J|80239839|        |    |0302026214        |Manufactured Board,MARP RRU,WD5DQRXG7ZA,|ZH6R|B05|       82 |    82 |     56 |      56 |01/23/2023|01/23/2023|         |REL  PCNF PRC  CSER GMPS MACM PDLV SETC |
+|  272J|80239840|        |    |03029UFG          |UMPTe2,WD28UMPTe2,UniversalMainProcess  |ZH6B|B05|      183 |   183 |      0 |       0 |01/21/2023|01/21/2023|         |REL  PRC  CSER MACM SETC                |
+|  272J|80239841|        |    |03034NLH          |UMPTe2,WD2CUMPTe2,Universal Main Process|ZH6B|B05|      183 |   183 |      0 |       0 |01/21/2023|01/21/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239842|        |    |0302028459        |UBBPg2,WD2XUBBPg2,Baseband Processing an|ZH6B|B05|       96 |    96 |      0 |       0 |01/21/2023|01/21/2023|         |REL  PRC  CSER MACM SETC                |
+|  272J|80239844|        |    |0302027876        |UBBPg1a,WD2VUBBPg1a,Baseband Processing |ZH6B|B05|      396 |   396 |      0 |       0 |01/25/2023|01/25/2023|         |REL  PRC  CSER MACM SETC                |
+|  272J|80239845|        |    |03034AYD          |HERT BBU,WD29UBBPg1a,Baseband Processing|ZH6B|B05|      396 |   396 |      0 |       0 |01/25/2023|01/25/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239846|        |    |0302018278        |Manufactured Board,WD5LLRXCT0E,Transceiv|ZH6R|B05|      117 |   117 |      0 |       0 |01/21/2023|01/21/2023|         |REL  PRC  CSER MACM SETC                |
+|  272J|80239847|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      117 |   117 |    117 |     117 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239848|        |    |FLASH-278-102-C-GR|NOR FLASH-1Gbit-50MHz-256KB-1.8V-SOIC16-|ZB10|B06|      117 |   117 |      0 |       0 |01/21/2023|01/21/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239849|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|       82 |    82 |     82 |      82 |01/23/2023|01/23/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239850|        |    |FLASH-214-111-B-GR|NOR FLASH-1Gbit-50MHz-256KB-1.8V-SOIC16-|ZB10|B06|       82 |    32 |     82 |      82 |01/23/2023|01/23/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239851|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|       96 |    96 |     96 |      96 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239852|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      396 |   396 |    396 |     396 |01/25/2023|01/25/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239853|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      396 |   396 |    396 |     396 |01/25/2023|01/25/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239854|        |    |876-100-A-VDE-GR  |High Current Switching Regulators,VR13.H|ZB10|B06|      396 |   396 |      0 |       0 |01/25/2023|01/25/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239855|        |    |876-100-A-BRC-GR  |High Current Switching Regulators,VR13.H|ZB10|B06|      396 |   396 |      0 |       0 |01/25/2023|01/25/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239856|        |    |876-100-A-VMO-GR  |High Current Switching Regulators,VR13.H|ZB10|B06|      396 |   396 |      0 |       0 |01/25/2023|01/25/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239857|        |    |F1-876-210-A-GR   |NOR FLASH,512Mbit,50MHz,64KB,1.8V,SOIC16|ZB10|B06|      396 |   396 |      0 |       0 |01/25/2023|01/25/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239858|        |    |F2-876-210-A-GR   |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|      396 |   396 |      0 |       0 |01/25/2023|01/25/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239859|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|       96 |    96 |     96 |      96 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239860|        |    |459-100-A-VDE-GR  |High Current Switching Regulators,VR13.H|ZB10|B06|       96 |    96 |     96 |      96 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239861|        |    |459-100-A-BRC-GR  |High Current Switching Regulators,VR13.H|ZB10|B06|       96 |    96 |     96 |      96 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239862|        |    |459-100-A-VMO-GR  |High Current Switching Regulators,VR13.H|ZB10|B06|       96 |    96 |     96 |      96 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239863|        |    |F1-459-170-A-GR   |NOR FLASH,512Mbit,50MHz,64KB,1.8V,SOIC16|ZB10|B06|       96 |    96 |     96 |      96 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239864|        |    |F2-459-170-A-GR   |NAND FLASH,1Gx8bit,40MHz,128KB,1.8V,BGA6|ZB10|B06|       96 |    96 |      0 |       0 |01/21/2023|01/21/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239865|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      183 |   183 |    183 |     183 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239866|        |    |LBLSERIALMDB07-GR |Kapton Label 10x6mm - RECORDED          |ZB10|B06|      183 |   183 |    183 |     183 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239867|        |    |F4-UFG-130-B-GR   |NOR FLASH-1Gbit-9.1MHz-128KB-3.3V-TSOP56|ZB10|B06|      183 |   183 |    183 |     183 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239868|        |    |UFG-130-B-VDE-GR  |NAND FLASH,512Mx8bit,40MHz,128KB,1.8V,BG|ZB10|B06|      183 |   183 |    183 |     183 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239869|        |    |UFG-130-B-BRC-GR2 |NAND FLASH,512Mx8bit,40MHz,128KB,1.8V,BG|ZB10|B06|      183 |   183 |    183 |     183 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239870|        |    |UFG-130-B-VMO-GR3 |NAND FLASH,512Mx8bit,40MHz,128KB,1.8V,BG|ZB10|B06|      183 |   183 |    183 |     183 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239871|        |    |UFG-201-B-BRC-GR  |???-MP2975IC-board-EN42CTLF-MP2975IC-boa|ZB10|B06|      183 |   183 |    183 |     183 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239872|        |    |UFG-100-B-VDE-GR2 |???-MP2975IC-board-EN42CTLF-MP2975IC-boa|ZB10|B06|      183 |   183 |    183 |     183 |01/21/2023|01/21/2023|         |REL  CNF  DLV  PRC  GMPS MACM SETC      |
+|  272J|80239873|        |    |03033EVW          |FinishedBoard,HERTBBU,WD29UBBPg2c,Uni   |ZH6B|B05|       96 |    96 |      0 |       0 |01/21/2023|01/21/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80239890|        |    |MB-214-102-A-GR   |Manufactured Board,MP2975IC-board,EN42CT|ZB10|B06|       82 |    82 |      0 |       0 |01/23/2023|01/23/2023|         |REL  PRC  MACM SETC                     |
+|  272J|80240008|        |    |03058707-1        |Finished Board Unit,HERT BBU,WD22UBBPe2,|ZBHR|B01|      100 |   100 |      0 |       0 |01/31/2023|01/31/2023|         |REL  PRC  CSER MACM SETC                |
+|  272J|80240009|        |    |03058707-1        |Finished Board Unit,HERT BBU,WD22UBBPe2,|ZBHR|B01|       40 |    32 |      0 |       0 |01/31/2023|01/31/2023|         |REL  PRC  CSER MACM SETC                |
+|* 272J|        |        |    |                  |                                        |    |   |   24,725 |       |        |  19,455 |          |          |         |                                        |
++------+--------+--------+----+------------------+----------------------------------------+----+---+----------+-------+--------+---------+----------+----------+---------+----------------------------------------+
+|**    |        |        |    |                  |                                        |    |   |   24,725 |       |        |  19,455 |          |          |         |                                        |
++------+--------+--------+----+------------------+----------------------------------------+----+---+----------+-------+--------+---------+----------+----------+---------+----------------------------------------+
+

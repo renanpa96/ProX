@@ -1,0 +1,21 @@
+/* Ctrl+; para comentar */
+.Titulo {
+  color: rgb(203, 14, 14);
+}
+
+h2 .Titulo {
+  color: rgb(127, 255, 212);
+}
+
+/* Quando colocamos dessa forma, ele formata apenas os elementos h3 que contenham essa classe dentro deles
+<h3 class ="bleh> " */
+h3.bh2 {
+  color: rgb(225, 127, 255);
+}
+
+/* Quando colocamos dessa forma, ele formata apenas os elementos h3 que contenham essa classe
+dentro deles "POR FORA" <h3><p class ="bleh> " */
+
+h3 .bh2 {
+  color: rgb(225, 127, 255);
+}
